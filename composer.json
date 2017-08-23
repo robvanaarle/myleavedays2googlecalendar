@@ -1,0 +1,45 @@
+{
+  "minimum-stability": "dev",
+  "name": "myleavedays2googlecalendar",
+  "x-version": "2017-08-23",
+  "description": "Sync myleavedays.com (verlofdagen.nl) to Google Calendar",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Rob van Aarle"
+    }
+  ],
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/robvanaarle/ultimo-http"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/robvanaarle/ultimo-config"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/robvanaarle/ultimo-orm"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/robvanaarle/ultimo-error"
+    }
+  ],
+  "require": {
+    "robvanaarle/ultimo-http": "dev-master",
+    "robvanaarle/ultimo-config": "dev-master",
+    "robvanaarle/ultimo-orm": "dev-master",
+    "robvanaarle/ultimo-error": "dev-master",
+    "google/apiclient": "1.0.*@beta"
+  },
+  "autoload": {
+    "psr-4": {
+      "mld2gc\\": "lib/mld2gc/",
+      "myleavedays\\": "lib/myleavedays/"
+    }
+  }
+}
+

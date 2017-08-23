@@ -1,0 +1,227 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3e9e7083f20c82e8b45ddc4f085f92c6",
+    "content-hash": "d18021624f398cadb9dc9821edb2e61f",
+    "packages": [
+        {
+            "name": "google/apiclient",
+            "version": "1.0.6-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client.git",
+                "reference": "a41a9dc0662e36420030eaab802dbb1f85459479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/a41a9dc0662e36420030eaab802dbb1f85459479",
+                "reference": "a41a9dc0662e36420030eaab802dbb1f85459479",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2014-09-30 19:33:59"
+        },
+        {
+            "name": "robvanaarle/ultimo-config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robvanaarle/ultimo-config.git",
+                "reference": "c944ac21c5ef82664d25ff96460e0537f360c7d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robvanaarle/ultimo-config/zipball/c944ac21c5ef82664d25ff96460e0537f360c7d9",
+                "reference": "c944ac21c5ef82664d25ff96460e0537f360c7d9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ultimo\\": "src/ultimo/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob van Aarle"
+                }
+            ],
+            "description": "Small lightweight configuration library",
+            "keywords": [
+                "config",
+                "ini"
+            ],
+            "support": {
+                "source": "https://github.com/robvanaarle/ultimo-config/tree/master",
+                "issues": "https://github.com/robvanaarle/ultimo-config/issues"
+            },
+            "time": "2014-02-19 16:35:38"
+        },
+        {
+            "name": "robvanaarle/ultimo-error",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robvanaarle/ultimo-error.git",
+                "reference": "38d5c44847bd37a4e3649a06014f5432430d9211"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robvanaarle/ultimo-error/zipball/38d5c44847bd37a4e3649a06014f5432430d9211",
+                "reference": "38d5c44847bd37a4e3649a06014f5432430d9211",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ultimo\\": "src/ultimo/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob van Aarle"
+                }
+            ],
+            "description": "Extensive error and exception catcher",
+            "keywords": [
+                "catcher",
+                "error",
+                "exception"
+            ],
+            "support": {
+                "source": "https://github.com/robvanaarle/ultimo-error/tree/master",
+                "issues": "https://github.com/robvanaarle/ultimo-error/issues"
+            },
+            "time": "2014-08-29 16:12:00"
+        },
+        {
+            "name": "robvanaarle/ultimo-http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robvanaarle/ultimo-http.git",
+                "reference": "3b2515361a0cbacfe6551f9204789e87b185177c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robvanaarle/ultimo-http/zipball/3b2515361a0cbacfe6551f9204789e87b185177c",
+                "reference": "3b2515361a0cbacfe6551f9204789e87b185177c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ultimo\\": "src/ultimo/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob van Aarle"
+                }
+            ],
+            "description": "HTTP library",
+            "keywords": [
+                "HTTP",
+                "SAPI"
+            ],
+            "support": {
+                "source": "https://github.com/robvanaarle/ultimo-http/tree/master",
+                "issues": "https://github.com/robvanaarle/ultimo-http/issues"
+            },
+            "time": "2016-05-22 14:43:59"
+        },
+        {
+            "name": "robvanaarle/ultimo-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robvanaarle/ultimo-orm.git",
+                "reference": "b9e2ba541bf6763fa0e1a34da06ec01b503845da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robvanaarle/ultimo-orm/zipball/b9e2ba541bf6763fa0e1a34da06ec01b503845da",
+                "reference": "b9e2ba541bf6763fa0e1a34da06ec01b503845da",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ultimo\\": "src/ultimo/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob van Aarle"
+                }
+            ],
+            "description": "Object relational mapper",
+            "keywords": [
+                "lightweight",
+                "orm"
+            ],
+            "support": {
+                "source": "https://github.com/robvanaarle/ultimo-orm/tree/master",
+                "issues": "https://github.com/robvanaarle/ultimo-orm/issues"
+            },
+            "time": "2015-05-21 19:36:01"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "robvanaarle/ultimo-http": 20,
+        "robvanaarle/ultimo-config": 20,
+        "robvanaarle/ultimo-orm": 20,
+        "robvanaarle/ultimo-error": 20,
+        "google/apiclient": 10
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
