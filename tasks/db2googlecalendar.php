@@ -48,7 +48,7 @@ foreach($deletedRequests as $leaverequest) {
     try {
       $calendarService->events->delete($config['google']['calendar_id'], $leaverequest->event_id);
     } catch (Google_Service_Exception $e) {
-      if ($e->getCode() == 410) {
+      if ($e->getCode() == 410 || $e->getCode() == 404) {
         // Calendar item is already deleted, this could be done manually by a user or this script did this but could not record this change
         echo "already deleted...";
       } else {
